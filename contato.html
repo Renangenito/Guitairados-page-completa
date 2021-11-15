@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style/reset.css">
     <link rel="stylesheet" href="./style/style.css">
-    <link rel="stylesheet" href="./contato.css">
-    <link rel="stylesheet" href="mobile.css">
+    <link rel="stylesheet" href="./style/contato.css">
+    <link rel="stylesheet" href="./style/mobile.css">
     <title>GuitaIrados</title>
 </head>
 
@@ -31,13 +31,13 @@
         <label class="label-nome" for="nome">Nome</label>
         <input class="nome" type="text" name="nome" id="nome" placeholder="Nome" required>
         <div class="div-telefone-email">
-            <div>
+            <div class="div-telefone">
                 <label for="telefone">telefone</label>
                 <input class="telefone" type="tel" name="telefone" pattern='[0-9]{10,11}' id="telefone"
                     title="Deve ter 10 digitos para telefone fixo e 11 digitos para celular, apenas números!"
                     pattern="[0-9]{10,11}" placeholder="Telefone" required>
             </div>
-            <div>
+            <div class="div-email">
             <label for="email">email</label>
             <input class="email" type="email" name="email" id="email" placeholder="Email" required>
         </div>

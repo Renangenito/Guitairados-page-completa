@@ -1,4 +1,5 @@
 @media screen and (max-width: 823px){
+  
     .cabecalho,.cabecalho ul{
         height: 130px;
     }
@@ -102,13 +103,68 @@
         margin-bottom: 300px;
         margin-top: 100px;
     }
-
-    /* --------------------------------------------PAGINA CONTATO------------------------------------------ */
-
+    /* ---------------------------------------PÁGINA CONTATO--------------------------------------- */
     .titulo-contato{
-        margin-top: 190px;
+        margin-top: 150px;
+        font-size: 45px;
     }
-    .formulario-cadastro{
-        margin-bottom: 200px;
+    .texto-contato{
+        font-size: 30px;
+        margin-bottom: 150px;
+    }
+    .formulario-cadastro {
+        display: flex;
+        flex-direction: column;
+        width: 1000px;
+        height: 708px;
+        background-color: #580505;
+        margin: 50px auto;
+        border-radius: 5px;
+        margin-bottom: 1410px;
+    }
+    .formulario-cadastro label{
+        font-size: 35px;
+    }
+    .label-nome, .label-mensagem{
+        margin-left: 61px;
+    }
+    .nome {
+        width: 875px;
+        height: 80px;
+        margin: 0 auto;
+        margin-bottom: 20px;
+    }
+    .div-telefone-email {
+        display: flex;
+        width: 441px;
+        margin: 0 0;
+    }
+    .telefone {
+        width: 400px;
+        height: 80px;
+        margin-top: 10px;
+    }
+   .div-telefone{
+       width: 400px;
+       margin-left: 61px;
+
+   }
+    .div-email{
+        margin-left: 66px;
+    }
+    .email {
+        width: 400px;
+        height: 80px;
+        margin-top: 10px;
+    }
+    .mensagem{
+        width: 875px;
+        height: 180px;
+    }
+
+    .botao-enviar{
+        width: 450px;
+        height: 80px;
+        margin-top: 17px;
     }
 }
