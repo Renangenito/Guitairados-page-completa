@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./contato.css">
+    <link rel="stylesheet" href="mobile.css">
+    <title>GuitaIrados</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+
+        <nav class="nav-bar">
+            <ul>
+
+                <li class="logo">GuitaIrados</li>
+                <li class="nav-bar-home"><a href="./home.html">Home</a></li>
+                <li class="nav-bar-sobre"><a href="./sobre.html">Sobre</a></li>
+                <li class="nav-bar-contato"><a href="./contato.html">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1 class="titulo-contato">AGENDE UMA AULA EXPERIMENTAL GRATUITA</h1>
+    <p class="texto-contato">Preencha com seus dados e entraremos em contato!</p>
+    <form class="formulario-cadastro" action="">
+        <label class="label-nome" for="nome">Nome</label>
+        <input class="nome" type="text" name="nome" id="nome" placeholder="Nome" required>
+        <div class="div-telefone-email">
+            <div>
+                <label for="telefone">telefone</label>
+                <input class="telefone" type="tel" name="telefone" pattern='[0-9]{10,11}' id="telefone"
+                    title="Deve ter 10 digitos para telefone fixo e 11 digitos para celular, apenas números!"
+                    pattern="[0-9]{10,11}" placeholder="Telefone" required>
+            </div>
+            <div>
+            <label for="email">email</label>
+            <input class="email" type="email" name="email" id="email" placeholder="Email" required>
+        </div>
+        </div>
+        <label class="label-mensagem" for="mensagem">mensagem</label>
+        <textarea class="mensagem" name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+        <button class="botao-enviar" type="submit">Enviar</button>
+    </form>
+    <footer class="footer-compartilha">
+        <p class="musica">Música</p>
+        <p class="guitarra">Guitarra</p>
+        <div class="icones">
+            <img src="./icones/Facebook@3x.svg" alt="">
+            <img src="./icones/Twitter@3x.svg" alt="">
+            <img src="./icones/Instagram@3x.svg" alt="">
+        </div>
+        <p class="copyright">© Guitairados</p>
+    </footer>
+</body>
+
+</html>

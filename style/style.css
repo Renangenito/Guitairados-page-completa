@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap');
 body{
     width: 1366px;
 }
@@ -21,7 +23,7 @@ ul{
     background-color: #580505;
 }
 
-li{
+li a{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -32,9 +34,12 @@ li{
     font-size: 16px;
     letter-spacing: 0;
     line-height: 19px;
+    text-decoration: none;
 }
 
 .logo{
+    display: flex;
+    align-items: center;
     width: 165px;
     height: 60px;
     color: #ffe501;
@@ -76,7 +81,7 @@ li{
 .titulo-dois, .titulo-tres{
     height: 31px;
     width: 728px;
-    color: #BBB5B5;
+    color: #706d6d;
     font-family: Helvetica;
     font-size: 26px;
     font-weight: bold;
@@ -108,18 +113,28 @@ li{
 
 .categorias-texto1:nth-child(1){
     width: 155px;
+    background-color: #949090;
+    border: 2px solid #580505;
 }
 .categorias-texto1:nth-child(2){
     width: 167px;
+    background-color: #949090;
+    border: 2px solid #580505;
 }
 .categorias-texto1:nth-child(3){
     width: 198px;
+    background-color: #949090;
+    border: 2px solid #580505;
 }
 .categorias-texto1:nth-child(4){
     width: 122px;
+    background-color: #949090;
+    border: 2px solid #580505;
 }
 .categorias-texto1:nth-child(5){
     width: 342px;
+    background-color: #949090;
+    border: 2px solid #580505;
 }
 
 
@@ -127,16 +142,20 @@ li{
     width: 173px;
     margin-left: 230px;
     margin-top: 15px;
+    background-color: #949090;
+    border: 2px solid #580505;
 }
 .categorias-texto2:nth-child(2){
     width: 292px;
     margin-top: 15px;
-
+    background-color: #949090;
+    border: 2px solid #580505;
 }
 .categorias-texto2:nth-child(3){
     width: 96px;
     margin-top: 15px;
-
+    background-color: #949090;
+    border: 2px solid #580505;
 }
 
 .titulo-tres{
@@ -152,73 +171,22 @@ li{
     margin: 55px 0 55px 133px;
 }
 
-.card{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 353px;
-    height: 463px;
-}
 
-.card:hover{
-    cursor: pointer;
-}
 
-.imagem-card{
-    height: 240px;
-    width: 353px;
-    background-color: #E6E5E5;  
-    margin-bottom: 17px;
-}
-
-.card-texto{
-    height: 167px;
-    width: 279px;
-    color: #BBB5B5;
-    font-family: Helvetica;
-    font-size: 18px;
-    font-weight: bold;
-    letter-spacing: 0;
-    line-height: 28px;
-    text-align: center;
-}
-.card-texto-esquerdo{
-    height: 110px;
-}
-.card-texto-direito{
-    height: 82px;
-}
-
-.card-texto:nth-child(1){
-    width: 100px;
-}
-
-.mauris-link{
-    height: 19px;
-    width: 102px;
-    color: #BBB5B5;
-    font-family: Helvetica;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: 19px;
-    text-align: center;
-    margin-top: 24px;
-}
-
-.div-tincidunt{
+.div-genero{
     height: 130px;
     width: 1100px;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
-    background-color: #E6E5E5;
+    background-color: #949090;
     margin: 0 auto;
 }
 
-.titulo-tincidunt{
+.titulo-genero{
     height: 43px;
-    width: 162px;
+    width: 200px;
     color: #FFFFFF;
     font-family: Helvetica;
     font-size: 36px;
@@ -227,7 +195,7 @@ li{
     line-height: 43px;
     text-align: center;
 }
-.texto-tincidunt{
+.texto-genero{
     height: 82px;
     width: 499px;
     color: #FFFFFF;
@@ -237,16 +205,23 @@ li{
     line-height: 26px;
 }
 
-.botao-suspendisse{
+.botao-genero{
     box-sizing: border-box;
     height: 42px;
-    width: 188px;
-    border: 2px solid #969292;
-    background-color: #BBB5B5;
+    width: 200px;
+    border: 2px solid #FFFFFF;
+    background-color: #580505;
     color: #FFFFFF;
     font-family: Helvetica;
     font-size: 20px;
     font-weight: bold;
+}
+.botao-genero:hover{
+    cursor: pointer;
+    background-color: #3b0404;
+}
+.botao-genero:active{
+    background-color: #580505;
 }
 
 .botao-sed, .botao-postagem{
@@ -274,18 +249,18 @@ li{
     margin-top: 110px;
 }
 
-.realizacao{
+.teoria{
     height: 106px;
     width: 415px;
     margin-left: 133px;
     margin-right: 145px;
 }
 
-.apoio{
+.pratica{
     height: 105px;
     width: 353px;
 }
-.realizacao-titulo-elementum, .apoio-titulo-donec{
+.footer-teoria-musical, .footer-pratica-musical{
     height: 24px;
     width: 179px;
     color: #FFFFFF;
@@ -297,7 +272,7 @@ li{
 }
 
 .apoio-titulo-donec{
-    width: 65px;
+    width: 150px;
 }
 
 .footer-elementos{
@@ -308,38 +283,48 @@ li{
     margin-top: 22px;
 }
 
-.elemento-realizacao:nth-child(1){
+.elemento-teoria, .elemento-pratica{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: 'Amatic SC', cursive;
+}
+
+.elemento-teoria:nth-child(1){
+    
     height: 40px;
     width: 142px;
     background-color: #D8D8D8;
 }
-.elemento-realizacao:nth-child(2){
+.elemento-teoria:nth-child(2){
     height: 60px;
     width: 125px;
     background-color: #D8D8D8;
     margin: 0 25px;
 }
-.elemento-realizacao:nth-child(3){
+.elemento-teoria:nth-child(3){
     height: 40px;
     width: 98px;
     background-color: #D8D8D8;
 }
 
-.elemento-apoio:nth-child(1){
+.elemento-pratica:nth-child(1){
     height: 39.25px;
   width: 98px;
   background-color: #D8D8D8;
 }
-.elemento-apoio:nth-child(2){
+.elemento-pratica:nth-child(2){
     height: 58.87px;
     width: 125px;
     background-color: #D8D8D8;
     margin: 0 25px;
 
 }
-.elemento-apoio:nth-child(3){
+.elemento-pratica:nth-child(3){
     height: 50.04px;
-    width: 80px;
+    width: 100px;
     background-color: #D8D8D8;
 }
 
@@ -350,12 +335,13 @@ li{
     justify-content: center;
     height: 47px;
     width: 1366px;
-    background-color: #D0CECE;
+    background-color: #580505;
 }
 
-.cras{
+.musica{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 27px;
     width: 95px;
     color: #FFFFFF;
@@ -366,9 +352,10 @@ li{
     border-right: 1px solid #FFFFFF;
     padding-right: 20px;
 }
-.quisque{
+.guitarra{
     display: flex;
     align-items: center;
+    justify-content: center;
     height: 27px;
     width: 53px;
     color: #FFFFFF;
@@ -390,7 +377,7 @@ li{
     height: 45px;
     margin-left: 10px;
     padding-right: 12px;
-    background-color: #D0CECE;
+    background-color: #580505;
 }
 
 .copyright{
@@ -408,7 +395,7 @@ li{
     border-left: 1px solid #FFFFFF;
 }
 
-.single-menu{
+.menu-principal{
     display: flex;
     flex-direction: row;
     margin: 0 auto;
@@ -427,7 +414,7 @@ li{
 .titulo-guitarrista{
     width: 802px;
     height: 44px;
-    color: #C2BCBC;
+    color: #767676;
     font-family: Helvetica;
     font-size: 22px;
     letter-spacing: 0;
@@ -443,7 +430,7 @@ li{
 .menu-titulo-tecnica{
     height: 46px;
     width: 820px;
-    color: #949090;
+    color: #706d6d;
     font-family: Helvetica;
     font-size: 24px;
     font-weight: bold;
@@ -454,7 +441,7 @@ li{
 .menu-texto-tecnica{
     height: 79px;
     width: 820px;
-    color: #C2BCBC;
+    color: #767676;
     font-family: Helvetica;
     font-size: 18px;
     letter-spacing: 0;
@@ -473,7 +460,7 @@ li{
     box-sizing: border-box;
     height: 230px;
     width: 821px;
-    border: 1px solid #D8D8D8;
+    border: 1px solid #580505;
     display: flex;
     flex-direction: row;
     margin: 54.5px 0;
@@ -493,20 +480,20 @@ li{
     height: 230px;
 }
 .card-pesquisa-texto{
-    color: #BBB5B5;
+    color: #767676;
     font-family: Helvetica;
     font-size: 18px;
     font-weight: bold;
     letter-spacing: 0;
     line-height: 28px;
-    margin: 33.5px 0 20px 0;
+    margin: 33.5px 0 11px 0;
 }
 
 .card-pesquisa-botao{
     box-sizing: border-box;
     height: 40px;
     width: 276px;
-    border: 2px solid #969292;
+    border: 2px solid #580505;
     background-color: #BDB6B6;
     color: #FFFFFF;
     font-family: Helvetica;
@@ -532,7 +519,8 @@ li{
     align-items: center;
     height: 378px;
     width: 260px;
-    background-color: #E6E5E5;
+    background-color: #949090;
+    border: 2px solid #580505;
 }
 
 .atuacao-titulo{
@@ -562,8 +550,8 @@ li{
     box-sizing: border-box;
     height: 41px;
     width: 188px;
-    border: 2px solid #969292;
-    background-color: #BBB5B5;
+    border: 2px solid #FFFFFF;
+    background-color: #580505;
     color: #FFFFFF;
     font-family: Helvetica;
     font-size: 20px;
@@ -573,14 +561,25 @@ li{
     text-align: center;
     margin: 0 auto;
 }
+.banner-botao:hover{
+    cursor: pointer;
+    background-color: #410404;
+}
+.banner-botao:active{
+    cursor: pointer;
+    background-color: #640606;
+}
+
 
 .banner-execucao{
     display: flex;
     flex-direction: column;
+    align-items: center;
     height: 378px;
     width: 260px;
-    background-color: #E6E5E5;
+    background-color: #949090;
     margin: 30px 0;
+    border: 2px solid #580505;
 }
 
 .execucao-titulo{
@@ -593,7 +592,7 @@ li{
     letter-spacing: 0;
     line-height: 36px;
     margin-top: 37px;
-    margin-left: 36px;
+    margin-left: -55px;
 }
 
 .execucao-texto{
@@ -604,19 +603,20 @@ li{
     font-size: 20px;
     letter-spacing: 0;
     line-height: 26px;
-    margin: 30px 0 39px 36px;
+    margin: 30px 0 39px 0;
   }
 
-.banner-vertical-dossie{
+.banner-arte-sublime{
     display: flex;
     flex-direction: column;
     align-items: center;
     height: 215px;
     width: 260px;
-    background-color: #E6E5E5;
+    background-color: #949090;
+    border: 2px solid #580505;
 }
 
-.banner-vertical-dossie_titulo{
+.banner-arte-sublime_titulo{
     height: 72px;
     width: 136px;
     color: #FFFFFF;
@@ -629,10 +629,10 @@ li{
     margin: 37px 0 29px 0;
 }
 
-.titulo-postagens{
+.titulo-depoimentos{
     height: 31px;
     width: 398px;
-    color: #BBB5B5;
+    color: #706d6d;
     font-family: Helvetica;
     font-size: 26px;
     font-weight: bold;
@@ -641,30 +641,72 @@ li{
     margin: 55px 0 0 134px;
 }
 
-.secao-cards-single{
+.secao-cards-depoimentos{
+    display: flex;
+    justify-content: center;
     margin-top: 30px;
 }
-
-.botao-postagem{
-    box-sizing: border-box;
-    height: 48px;
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 353px;
-    border: 2px solid #969292;
-    background-color: #C2BCBC;
-    color: #FFFFFF;
+    height: 463px;
+}
+
+.card:hover{
+    cursor: pointer;
+}
+
+.imagem-card{
+    height: 240px;
+    width: 353px;
+    background-color: #E6E5E5;  
+    margin-bottom: 17px;
+}
+
+.card-texto{
+    height: 74px;
+    width: 279px;
+    color: #BBB5B5;
     font-family: Helvetica;
     font-size: 18px;
     font-weight: bold;
-    margin: 0;
-    margin-left: 504px;
+    letter-spacing: 0;
+    line-height: 28px;
+    text-align: center;
 }
+.card-texto-depoimentos{
+    height: 110px;
+}
+.card-texto-direito_depoimentos{
+    height: 82px;
+}
+
+.card-texto:nth-child(1){
+    width: 100px;
+}
+
+.mauris-link{
+    height: 19px;
+    width: 102px;
+    color: #BBB5B5;
+    font-family: Helvetica;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: 19px;
+    text-align: center;
+    margin-top: 24px;
+}
+
 .parceiros{
     display: flex;
     flex-direction: column;
     height: 206px;
     width: 1099px;
-    background-color: #D8D8D8;
+    background-color: #949090;
     margin: 68px auto 0 auto;
+    margin-bottom: 100px;
 }
 .parceiros-titulo{
     height: 31px;
@@ -675,7 +717,7 @@ li{
     font-weight: bold;
     letter-spacing: 0;
     line-height: 31px;
-    margin: 45px 0 25px 70px;
+    margin: 23px 0 25px 70px;
 }
 
 .parceiros-conteudo{
@@ -687,37 +729,39 @@ li{
 }
 
 .conteudo:nth-child(1){
-    height: 60px;
+    height: 96px;
     width: 198px;
     background-color: #E6E5E5;
     margin-right: 30px;
 }
 .conteudo:nth-child(2){
-    height: 60px;
+    height: 96px;
     width: 96px;
     background-color: #E6E5E5;
     margin-right: 30px;
 
 }
 .conteudo:nth-child(3){
-    height: 60px;
+    height: 96px;
     width: 187px;
     background-color: #E6E5E5;
     margin-right: 30px;
 
 }
 .conteudo:nth-child(4){
-    height: 60px;
+    height: 96px;
     width: 198px;
     background-color: #E6E5E5;
     margin-right: 30px;
 }
 .conteudo:nth-child(5){
-    height: 60px;
+    height: 96px;
     width: 153px;
     background-color: #E6E5E5;
 }
 
+
 .footer-single{
-    margin-top: 45px;
+    background-color: #949090;
+    margin: 0;
 }

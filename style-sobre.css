@@ -1,0 +1,67 @@
+
+.titulo-sobre{
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    margin-top: 200px;
+    margin-bottom: 30px;
+    color: #706f6f;
+}
+.texto-sobre{
+    width: 800px;
+    font-size: 22px;
+    text-align: initial;
+    margin: 0 auto;
+    color: #706f6f;
+    margin-bottom: 200px;
+    line-height: 36px;
+}
+.imagem-sala-aula{
+    margin: 0 auto;
+    width: 943px;
+    margin-left: 210px;
+    margin-bottom: 100px;
+    box-shadow: 0 0 22px;
+}
+.horarios{
+    display: flex;
+    justify-content: space-around;
+    background-color: black;
+    height: 400px;
+    padding-top: 78px;
+}
+.titulo-ensino, .titulo-horario{
+    color: #FFFFFF;
+    padding-bottom: 23px;
+}
+.titulo-ensino{
+    width: 156px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid brown;
+}
+.titulo-horario{
+    width: 227px;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px solid brown;
+}
+
+.ensino, .horario{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+.texto-ensino{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 17px;
+}
+.lista-horario li{
+    color: #FFFFFF;
+    font-size: 18px;
+    line-height: 28px;
+    margin-top: 17px;
+    list-style: circle;
+}

@@ -1,0 +1,114 @@
+@media screen and (max-width: 823px){
+    .cabecalho,.cabecalho ul{
+        height: 130px;
+    }
+    li a{
+        font-size: 35px;
+    }
+    .menu-principal{
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .titulo-guitarrista{
+        width: 931px;
+        height: 55px;
+        font-size: 29px;
+
+    }
+    .imagem-guitarrista{
+        height: 650px;
+        width: 1010px;
+    }
+    .menu-titulo-tecnica{
+        font-size: 30px;
+    }
+    .menu-texto-tecnica{
+        font-size: 28px;
+    }
+    .imagem-tecnica{
+        width: 850px;
+        height: 410px;
+    }
+
+    .card-pesquisa{
+        width: 970px;
+        height: 260px;
+        margin-bottom: 0;
+    }
+    .card-pesquisa-texto{
+        font-size: 23px;
+    }
+
+
+    .menu-direito{
+        position: relative;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        width: 1163px;
+        height: 382px;
+        margin: 270px auto;
+    }
+    .banner-atuacao{
+        width: 306px;
+        height: 430px;
+        margin-left: auto;
+    }
+    .atuacao-texto{
+        font-size: 27px;
+        height: 224px;
+    }
+    .banner-execucao{
+        margin: 0 30px;
+        width: 306px;
+        height: 430px;
+    }
+    .execucao-texto{
+        font-size: 27px;
+        height: 207px;
+    }
+    .banner-arte-sublime{
+        width: 306px;
+        height: 306px;
+    }
+
+    .texto-genero{
+        font-size: 25px;
+    }
+
+    .titulo-dois{
+        margin-top: 250px;
+    }
+    .categorias{
+        margin-bottom: 300px;
+    }
+    .footer{
+        height: 170px;
+    }
+    .footer-compartilha{
+        height: 100px;
+    }
+    /* --------------------------------------------PAGINA SOBRE------------------------------------------ */
+
+    .titulo-sobre{
+        font-size: 50px;
+        margin-bottom: 130px;
+    }
+    .texto-sobre{
+        font-size: 36px;
+    }
+    .imagem-sala-aula{
+        margin-bottom: 300px;
+        margin-top: 100px;
+    }
+
+    /* --------------------------------------------PAGINA CONTATO------------------------------------------ */
+
+    .titulo-contato{
+        margin-top: 190px;
+    }
+    .formulario-cadastro{
+        margin-bottom: 200px;
+    }
+}

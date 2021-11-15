@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
+.titulo-contato{
+    color: #000000;
+    font-family: 'Anton', sans-serif;
+    font-size: 36px;
+    text-align: center;
+    font-weight: bold;
+    margin-top: 52px;
+    margin-bottom: 15px;
+}
+.texto-contato{
+    text-align: center;
+    font-size: 22px;
+}
+
+.formulario-cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 480px;
+    height: 442px;
+    background-color: #580505;
+    margin: 50px auto;
+    border-radius: 5px;
+}
+.formulario-cadastro label{
+    font-size: 20px;
+    color: #FFFFFF;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.label-nome, .label-mensagem{
+    margin-left: 21px;
+}
+
+.nome{
+    width: 433px;
+    height: 40px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.telefone{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+}
+.email{
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+
+}
+.mensagem{
+    width: 433px;
+    height: 110px;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+.div-telefone-email{
+    display: flex;
+    width: 441px;
+    margin: 0 auto;
+}
+
+.botao-enviar{
+    width: 263px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+}
+
+.botao-enviar:hover{
+    cursor: pointer;
+    background-color: #7a0c0c;
+}
+.botao-enviar:active{
+    background: none;
+}
